@@ -2926,6 +2926,21 @@ video {
   font-size: 1.3rem;
   width: 1.23077em; }
 
+.logo_png {
+    width: 15em;
+}
+
+.logo_png:hover{
+  opacity:.5
+}
+
+.header_logo {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
  * http://bxslider.com
