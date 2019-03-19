@@ -1,69 +1,372 @@
-<html>
-	<head>
-		<base href="/"/>
-    	<meta charset="UTF-8"/>
-    	<title>Andrew Kolokolnikov</title>
-    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
-		<link rel="shortcut icon" href="i/favicon.ico" type="image/x-icon"/>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-		<!--
-		<link rel="stylesheet" media="all" href="styles/main_global.css"/>
-	
-		<link rel="stylesheet" type="text/css" href="/directory/style.css">
-		<link rel="stylesheet" type="text/css" href="//website.com/directory/style.css">
-		-->
-
-	</head>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<p class="test">
-						Welcome!
-					</p>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<body>
-		<div class="container">
-			<div class="row top-buffer">
-				<div class="col-12">
-					<header>
-						<h1>Yousician Meetups</h1>
-					</header>
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="row top-buffer">
-				<div class="col-lg-12 col-sm-12">
-					<p class="test">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra nisi quis sagittis pretium. Curabitur a lacus posuere, maximus est ut, pulvinar ex. Vestibulum sollicitudin quam et euismod sagittis. Ut iaculis sollicitudin nibh ut cursus. Mauris commodo leo nec auctor mollis. Ut ac elit et sem sagittis convallis. In gravida augue vitae ullamcorper vehicula. Integer sollicitudin, quam ac consectetur mattis, nibh lorem elementum metus, ac tincidunt tellus lorem id ante. Sed velit arcu, viverra tincidunt lacus vel, dignissim rutrum sem. Ut quis quam in lacus scelerisque congue in eu urna. Nunc blandit posuere mi ut facilisis. Nunc nec massa fermentum, pulvinar orci sed, porta mauris. Phasellus porttitor id nisl eu ultricies. Etiam sed turpis in sem lobortis molestie vel eget ligula. Sed eleifend vel leo nec tristique. Sed euismod metus a placerat lacinia.
-					</p>
-					<p class="test">
-						Aenean et pretium turpis, non aliquam mi. Mauris nulla magna, interdum ut iaculis ut, malesuada eget mauris. Integer vitae felis a diam vestibulum pharetra. Phasellus pretium tellus magna, a faucibus elit bibendum nec. Curabitur maximus nulla sed nunc ullamcorper convallis. Curabitur urna ex, ullamcorper quis suscipit et, dignissim vel tortor. Vestibulum tempus varius odio, in laoreet lectus faucibus vel.
-					</p>
-				</div>
-
-		    </div>
-		</div>	
-
-		<footer>
-			<div class="container">
-				<div class="row top-buffer">
-					<div class="col-12">
-						<h6>Author: Andrew Kolokolnikov</h6>
-					</div>
-				</div>
-			</div>
-		</footer>
-		
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-		
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="/"/>
+    <meta charset="UTF-8"/>
+    <title>Yousician – Your personal music teacher</title>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link type="image/x-icon" rel="shortcut icon" href="i/favicon.ico"/>
+    <link rel="shortcut icon" href="i/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png"/>
+    <link rel="stylesheet" media="all" href="styles/main_global.css"/>
+  </head>
+  <body id="index_page">
+    <header class="header">
+      <div class="header_main_row">
+        <div class="header_main_row_in">
+          <h1 class="logo_wrap header_mod"><a href="/" class="logo_text header_mod">
+              <svg class="icon icon-logo header_mod">
+                <use xlink:href="i/sprite/sprite.svg#logo"></use>
+              </svg></a>
+          </h1>
+          <div class="menu_trigger menuTrigger"><span class="menu_trigger_decor"></span></div>
+          <nav class="header_menu">
+            <ul class="header_menu_list">
+              <li class="header_menu_item"><a id="index_nav" href="index.html" class="header_menu_link">Home</a></li>
+              <li class="header_menu_item"><a id="careers_nav" href="careers.html" class="header_menu_link">Careers</a></li>
+              <li class="header_menu_item"><a id="story_nav" href="story.html" class="header_menu_link">Our story</a></li>
+              <li class="header_menu_item"><a id="contact_nav" href="contact.html" class="header_menu_link">Contact us</a></li>
+              <li class="header_menu_item"><a id="blog_nav" href="blog.html" class="header_menu_link">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="base">
+        <div class="present home_mod">
+          <div class="present_content">
+            <h2 class="present_title">making musicality</br> as common as literacy</h2>
+            <div class="present_btn_wrap"><a href="careers.html" class="present_btn">join us</a></div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="top_impression_block">
+            <div class="top_impression">
+              <p>To achieve our mission, we reimagine music education, so everyone can unleash their inner musician. We believe that music makes the world a more beautiful, colorful, and creative place, so all of us should be able to play, learn, and have fun. </p>
+            </div>
+          </div>
+          <div class="top_values_block v1_mod">
+            <h3 class="top_values_header">our beliefs</h3>
+            <ul class="top_values_list">
+              <li class="top_values_item">
+                <div class="top_values_content">
+                  <h2 class="top_values_title">we are all<br> born musical</h2>
+                  <div class="top_values_text">
+                    <p>Anyone can learn to play an instrument and lead a more musical life.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="top_values_item">
+                <div class="top_values_content">
+                  <h2 class="top_values_title">Love at <br>first note</h2>
+                  <div class="top_values_text">
+                    <p>Playing music should be fun from the very first note you play. </p>
+                  </div>
+                </div>
+              </li>
+              <li class="top_values_item">
+                <div class="top_values_content">
+                  <h2 class="top_values_title">musical<br> Creativity is diverse</h2>
+                  <div class="top_values_text">
+                    <p>Great teachers enable their students to find their own musical path. </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="culture_block">
+            <div class="culture_content">
+              <div class="logo_wrap green_mod"><a href="/" class="logo_text green_mod">
+                  <svg class="icon icon-logo green_mod">
+                    <use xlink:href="i/sprite/sprite.svg#logo"></use>
+                  </svg></a>
+              </div>
+              <div class="culture_text">
+                <p>Music is one of the most diverse cultural phenomena in the world. Musicians come from all walks of life and everyone has an individual musical identity. The “You” in Yousician reflects this, as does the fingerprint in our logo. We help you discover and develop your own musical identity, so you can make the world a more musical place.</p>
+              </div>
+            </div>
+            <div class="culture_img_w"><img src="i/home/2-image.jpg" alt="" class="culture_img"></div>
+          </div>
+          <div class="platform_block">
+            <div class="slider_controls"><a href="#" class="platform_control_prev v1_mod"></a><a href="#" class="platform_control_next v1_mod"></a></div>
+            <ul class="platform_list platformSlider">
+              <li class="platform_item border_mod">
+                <div class="platform_content">
+                  <div class="platform_c_wrap">
+                    <div class="platform_title">our products</div>
+                    <div class="logo_wrap darkgray_mod"><a href="/" class="logo_text darkgray_mod">
+                        <svg class="icon icon-logo darkgray_mod">
+                          <use xlink:href="i/sprite/sprite.svg#logo"></use>
+                        </svg></a>
+                      <!--.platform_item_title unleash your inner musician-->
+                    </div>
+                    <div class="platform_text">
+                      <p>Yousician is a revolutionary music platform for anyone to learn, play, create and teach music. Millions of people around the world use Yousician to advance their music skills and play the music they love.</p>
+                      <ul class="platform_store_list">
+                        <li class="platform_app_item"><a href="https://itunes.apple.com/us/app/yousician-your-personal-music/id959883039?mt=8" class="platform_link">
+                            <!--span.platform_link--><img src="i/app_store.svg" alt="" class="platform_app"></a></li>
+                        <li class="platform_app_item"><a href="https://play.google.com/store/apps/details?id=com.yousician.yousician&amp;hl=en" class="platform_link">
+                            <!--span.platform_link--><img src="i/gplay.png" alt="" class="platform_app"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="platform_btn_wrap"><a href="http://yousician.com/" class="platform_btn">start now</a></div>
+                </div>
+              </li>
+              <li class="platform_item border_mod">
+                <div class="platform_content">
+                  <div class="platform_c_wrap">
+                    <div class="platform_title">our products</div>
+                    <div class="logo_wrap darkgray_mod"><a href="/" class="logo_text darkgray_mod">
+                        <svg class="icon icon-logo darkgray_mod">
+                          <use xlink:href="i/sprite/sprite.svg#logo"></use>
+                        </svg></a>
+                      <div class="platform_item_title margin_adjustment">for educators</div>
+                    </div>
+                    <div class="platform_text">
+                      <p>Yousician for Educators is a great way for music teachers to keep students motivated, practicing at home and having fun. Teachers are able to assign and monitor homework tasks and student progression easily from the Educator Dashboard.</p>
+                    </div>
+                  </div>
+                  <div class="platform_btn_wrap"><a href="https://get.yousician.com/edu/" class="platform_btn">start now</a>
+                  </div>
+                </div>
+              </li>
+              <li class="platform_item">
+                <div class="platform_content platform_bg_mod">
+                  <div class="platform_c_wrap">
+                    <div class="platform_title white_mod">our products</div>
+                    <div class="logo_wrap guitar_mod"><img src="i/icons/guitartun.svg" alt="" class="platform_logo"></div>
+                    <div class="platform_text">
+                      <p>GuitarTuna is ranked as the #1 tuner app in the world on the App Store and Google Play. Because of its accuracy, intuitive design, and emphasis on usability, GuitarTuna is the firm favorite among beginners and advanced players alike.</p>
+                    </div>
+                    <ul class="platform_store_list v1_mod">
+                      <li class="platform_app_item app_item_mod"><a href="https://itunes.apple.com/fi/app/guitar-tuna-ultimate-free/id527588389?mt=8" class="platform_link">
+                          <!--span.platform_link--><img src="i/app_store.svg" alt="" class="platform_app"></a></li>
+                      <li class="platform_app_item app_item_mod"><a href="https://play.google.com/store/apps/details?id=com.ovelin.guitartuna&amp;hl=en" class="platform_link">
+                          <!--span.platform_link--><img src="i/gplay.png" alt="" class="platform_app"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="platform_pager"></div>
+          </div>
+          <div class="cite_block">
+            <div class="cite_content">
+              <div class="cite_img_wrap"><img src="i/home/4-image.jpg" alt="" class="cite_img"></div>
+            </div>
+            <div class="cite_content ct_bg_mod">
+              <div class="cite_text">
+                <blockquote>
+                  Every second of
+                  every day someone
+                  new from around the
+                  world starts playing
+                  an instrument with 
+                  Yousician.
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="counter_block">
+            <h2 class="counter_title">quick facts</h2>
+            <ul class="counter_list">
+              <li class="counter_item">
+                <div class="counter_content">
+                  <div class="counter_num">4</div>
+                  <div class="counter_text">instruments: guitar, <br> ukulele, bass, piano</div>
+                </div>
+              </li>
+              <li class="counter_item">
+                <div class="counter_content">
+                  <div class="counter_num">8m</div>
+                  <div class="counter_text">active users</div>
+                </div>
+              </li>
+              <li class="counter_item">
+                <div class="counter_content">
+                  <div class="counter_num">250m</div>
+                  <div class="counter_text">songs played</div>
+                </div>
+              </li>
+              <li class="counter_item">
+                <div class="counter_content">
+                  <div class="counter_num">135b</div>
+                  <div class="counter_text">notes played</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="slider_block v1_mod">
+            <div class="slider_controls"><a href="#" class="slider_control_prev"></a><a href="#" class="slider_control_next"></a></div>
+            <ul class="slider_list">
+              <li class="slider_item">
+                <div class="slider_img_wrap company_mod"><img src="i/home/5-image-carousel-1.jpg" class="slider_img"></div>
+              </li>
+              <li class="slider_item">
+                <div class="slider_img_wrap company_mod"><img src="i/home/5-image-carousel-2.jpg" class="slider_img"></div>
+              </li>
+              <li class="slider_item">
+                <div class="slider_img_wrap company_mod"><img src="i/home/5-image-carousel-3.jpg" class="slider_img"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="about_block">
+            <h2 class="section_header offset_mod">Yousician as a company</h2>
+            <div class="about_desc">
+              <div class="about_content_wrap">
+                <div class="about_content">
+                  <h2 class="about_title">135 billion notes played and counting</h2>
+                  <div class="about_text">
+                    <p>Founded in 2010, Yousician is the largest and fastest growing music education company in the world. Millions of people around the globe use our products.</p>
+                    <p>Year after year, we have grown our revenue 5x while the team doubled every year. And although we are successful in monetary terms, we measure our success by the progress of our users. So far our learners have played 135 billion notes, completed 250 million exercises, and spent in total a whopping 600 years learning, playing and becoming more musical.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="about_img_wrap ab_dn_mod"><img src="i/home/6-image.jpg" class="about_img"></div>
+            </div>
+            <div class="about_desc ab_posr_mod">
+              <div class="about_img_wrap ab_i_mod"><img src="i/home/7-image.jpg" class="about_img"></div>
+              <div class="about_content_wrap ab_c_mod">
+                <div class="about_content ab_cpd_mod">
+                  <h2 class="about_title">The people behind the apps</h2>
+                  <div class="about_text">
+                    <p>We are more than 50 people of 17 different nationalities based in Helsinki, Finland. We are a diverse bunch of hardcore audio engineers, music educators, software developers, game designers, marketers and visual artists. But what unites us all is our love for music and the shared belief that each of us can contribute to something big: helping to reimagine the future of music education.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="channel_block">
+            <h2 class="channel_title">as seen in</h2>
+            <ul class="channel_list">
+              <li class="channel_item"><span class="channel_i mod_1"></span></li>
+              <li class="channel_item"><span class="channel_i mod_2"></span></li>
+              <li class="channel_item"><span class="channel_i mod_3"></span></li>
+              <li class="channel_item"><span class="channel_i mod_4"></span></li>
+              <li class="channel_item"><span class="channel_i mod_5"></span></li>
+              <li class="channel_item"><span class="channel_i mod_6"></span></li>
+            </ul>
+            <div class="top_values_header media_logos_text">“Yousician is modern technology's gift to music education.”</div>
+          </div>
+          <div class="channel_block ch_bg_mod">
+            <h2 class="channel_title ch_white_mod ch-pad_mod">awards and honors</h2>
+            <ul class="channel_list channel_list_add ch_pad_mod">
+              <li class="channel_item ch_pad_mod">
+                <h3 class="channel_result">featured</h3><span class="channel_i mod_7"></span>
+              </li>
+              <li class="channel_item ch_pad_mod">
+                <h3 class="channel_result">featured</h3><span class="channel_i mod_8"></span>
+              </li>
+              <li class="channel_item ch_pad_mod">
+                <h3 class="channel_result">winner</h3><span class="channel_i mod_9"></span>
+              </li>
+              <li class="channel_item ch_pad_mod">
+                <h3 class="channel_result">winner</h3><span class="channel_i mod_10"></span>
+              </li>
+              <li class="channel_item ch_pad_mod">
+                <h3 class="channel_result">winner</h3><span class="channel_i mod_11"></span>
+              </li>
+              <li class="channel_item ch_pad_mod">
+                <h3 class="channel_result">featured</h3><span class="channel_i mod_12"></span>
+              </li>
+            </ul>
+          </div>
+          <div class="teaching_block">
+            <div class="teaching_content">
+              <div class="teaching_desc">
+                <h2 class="section_header">for media</h2>
+                <div class="teaching_text">
+                  <p>Brand assets and product images.</p>
+                </div>
+                <div class="teaching_btn_wrap"><a href="#" class="teaching_btn">download</a></div>
+              </div>
+            </div>
+            <div class="teaching_content tc_bg_mod">
+              <div class="teaching_bg"></div>
+              <div class="teaching_desc">
+                <h2 class="section_header white_mod">Our blog<br>
+                  <!--|in teaching-->
+                </h2>
+                <div class="teaching_text white_mod">
+                  <p>Get to know us better and see what we’ve been up to. </p>
+                </div>
+                <div class="teaching_btn_wrap"><a href="blog.html" class="teaching_btn tch_btn_mod">read</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer_in">
+          <div class="footer_col">
+            <div class="logo_wrap footer_mod"><a href="/" class="logo_text footer_mod">
+                <svg class="icon icon-logo footer_mod">
+                  <use xlink:href="i/sprite/sprite.svg#logo"></use>
+                </svg></a>
+            </div>
+          </div>
+          <div class="footer_col half_mod">
+            <h3 class="footer_heading">Yousician</h3>
+            <ul class="footer_list">
+              <li class="footer_item"><a href="http://app.yousician.com/account/profile#/login" target="_blank" class="footer_link">Login</a></li>
+              <li class="footer_item"><a href="https://app.yousician.com/account/profile#/freetrial" target="_blank" class="footer_link">Try Premium</a></li>
+              <li class="footer_item"><a href="https://app.yousician.com/account/profile#/download" target="_blank" class="footer_link">Download Yousician</a></li>
+              <li class="footer_item"><a href="https://get.yousician.com/edu/" target="_blank" class="footer_link">Yousician for teachers</a></li>
+            </ul>
+          </div>
+          <div class="footer_col half_mod">
+            <h3 class="footer_heading">Community</h3>
+            <ul class="footer_list">
+              <li class="footer_item"><a href="https://yousician.zendesk.com/hc/en-us" target="_blank" class="footer_link">Support</a></li>
+              <li class="footer_item"><a href="https://app.yousician.com/phpbb3/index.php" target="_blank" class="footer_link">Forum</a></li>
+              <li class="footer_item"><a href="http://company.yousician.com/about/tos" target="_blank" class="footer_link">Terms</a></li>
+              <li class="footer_item"><a href="http://company.yousician.com/about/privacy-policy" target="_blank" class="footer_link">Privacy policy</a></li>
+            </ul>
+            <!--+link_list(['Support', 'Forums', 'Terms', 'Privacy policy'], 'footer')-->
+          </div>
+          <div class="footer_col half_mod">
+            <h3 class="footer_heading">Company</h3>
+            <ul class="footer_list">
+              <li class="footer_item"><a href="index.html" target="_blank" class="footer_link">About</a></li>
+              <li class="footer_item"><a href="careers.html" target="_blank" class="footer_link">Careers</a></li>
+              <li class="footer_item"><a href="story.html" target="_blank" class="footer_link">Press</a></li>
+            </ul>
+            <!--+link_list(['About', 'Careers', 'Press'], 'footer')-->
+          </div>
+          <div class="footer_col">
+            <ul class="social_list footer_mod">
+              <li class="social_item footer_mod"><a href="#" class="social_link facebook_mod footer_mod">
+                  <svg class="icon icon-facebook footer_mod">
+                    <use xlink:href="i/sprite/sprite.svg#facebook"></use>
+                  </svg></a></li>
+              <li class="social_item footer_mod"><a href="#" class="social_link instagram_mod footer_mod">
+                  <svg class="icon icon-instagram footer_mod">
+                    <use xlink:href="i/sprite/sprite.svg#instagram"></use>
+                  </svg></a></li>
+              <li class="social_item footer_mod"><a href="#" class="social_link twitter_mod footer_mod">
+                  <svg class="icon icon-twitter footer_mod">
+                    <use xlink:href="i/sprite/sprite.svg#twitter"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="js/all.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
