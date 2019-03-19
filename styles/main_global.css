@@ -915,7 +915,9 @@ body#contact_page #contact_nav.header_menu_link {
   text-decoration: none; }
 
 .logo_wrap {
-  z-index: 100; }
+  z-index: 100;
+  height: 60px;
+  }
 
 .logo_text.header_mod {
   color: #fff; }
