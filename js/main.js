@@ -57,10 +57,10 @@ $(document).ready(function ($) {
 	$menuTrigger.on('click', function () {
 		if ($body.hasClass('menu_open')) {
 			$body.removeClass('menu_open');
-			$(this).removeClass('active_mod');
+			$menuTriggerMain.removeClass('active_mod');
 		} else {
 			$body.addClass('menu_open');
-			$(this).addClass('active_mod');
+			$menuTriggerMain.addClass('active_mod');
 		}
 	});
 	
