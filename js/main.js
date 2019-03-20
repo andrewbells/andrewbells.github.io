@@ -58,7 +58,7 @@ $(document).ready(function ($) {
 		if ($body.hasClass('menu_open')) {
 			$body.removeClass('menu_open');
 			$menuTriggerMain.removeClass('active_mod');
-			$(this).removeClass('landing_nav');
+			$menuTrigger.removeClass('landing_nav');
 			$(this).addClass('landing_nav');
 		} else {
 			$body.addClass('menu_open');
