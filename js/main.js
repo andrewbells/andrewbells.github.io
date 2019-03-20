@@ -27,6 +27,7 @@ $(document).ready(function ($) {
 	windowWidth = $(window).width();
 	windowHeight = $(window).height();
 	$menuTrigger = $('.menuTrigger');
+	$menuTriggerMain = $('.menuTriggerMain');
 	$header = $('.header_main_row');
 	$slider = $('.slider_list');
 	$careersSlider = ('.careersSlider');
@@ -43,6 +44,16 @@ $(document).ready(function ($) {
 	getAllClasses('html', '.elements_list');
 
 	//header
+	$menuTriggerMain.on('click', function () {
+		if ($body.hasClass('menu_open')) {
+			$body.removeClass('menu_open');
+			$(this).removeClass('active_mod');
+		} else {
+			$body.addClass('menu_open');
+			$(this).addClass('active_mod');
+		}
+	});
+
 	$menuTrigger.on('click', function () {
 		if ($body.hasClass('menu_open')) {
 			$body.removeClass('menu_open');
