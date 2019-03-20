@@ -58,9 +58,11 @@ $(document).ready(function ($) {
 		if ($body.hasClass('menu_open')) {
 			$body.removeClass('menu_open');
 			$menuTriggerMain.removeClass('active_mod');
+			$(this).children('a').attr('id', '');
 		} else {
 			$body.addClass('menu_open');
 			$menuTriggerMain.addClass('active_mod');
+			$(this).children('a').attr('id', 'index_nav');
 		}
 	});
 	
