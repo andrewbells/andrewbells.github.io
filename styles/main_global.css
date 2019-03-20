@@ -912,7 +912,7 @@ body#index_page #index_nav.header_menu_link,
 body#story_page #story_nav.header_menu_link,
 body#careers_page #careers_nav.header_menu_link,
 body#contact_page #contact_nav.header_menu_link,
-.landing_nav .header_menu_link, {
+.landing_nav .header_menu_link {
   color: #fff;
   text-decoration: none; }
 
