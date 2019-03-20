@@ -93,7 +93,7 @@ $(document).ready(function ($) {
 	$menuTriggerHost.on('click', function () {
 			$menuTriggerJoin.removeClass('landing_nav');
 			$menuTriggerIndex.removeClass('landing_nav');
-			
+
 			$menuTriggerHost.addClass('landing_nav');
 			
 			if ($body.hasClass('menu_open')) {
@@ -110,13 +110,14 @@ $(document).ready(function ($) {
 			$menuTriggerHost.removeClass('landing_nav');
 			$menuTriggerJoin.addClass('landing_nav');
 			
-			if ($body.hasClass('menu_open')) {
-				$body.removeClass('menu_open');
-				$menuTriggerMain.removeClass('active_mod');
-			} else {
-				$body.addClass('menu_open');
-				$menuTriggerMain.addClass('active_mod');
-			}
+			//
+			//if ($body.hasClass('menu_open')) {
+			//	$body.removeClass('menu_open');
+			//	$menuTriggerMain.removeClass('active_mod');
+			//} else {
+			//	$body.addClass('menu_open');
+			//	$menuTriggerMain.addClass('active_mod');
+			//}
 	});
 
 	$navButtonTriggerHost.on('click', function () {
@@ -124,13 +125,13 @@ $(document).ready(function ($) {
 			$menuTriggerJoin.removeClass('landing_nav');
 			$menuTriggerHost.addClass('landing_nav');
 
-			if ($body.hasClass('menu_open')) {
-				$body.removeClass('menu_open');
-				$menuTriggerMain.removeClass('active_mod');
-			} else {
-				$body.addClass('menu_open');
-				$menuTriggerMain.addClass('active_mod');
-			}
+			//if ($body.hasClass('menu_open')) {
+			//	$body.removeClass('menu_open');
+			//	$menuTriggerMain.removeClass('active_mod');
+			//} else {
+			//	$body.addClass('menu_open');
+			//	$menuTriggerMain.addClass('active_mod');
+			//}
 	});
 	
 	//sliders
