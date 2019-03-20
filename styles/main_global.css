@@ -2939,6 +2939,9 @@ video {
 .logo_png {
     width: 15em;
 }
+  @media screen and (max-width: 1280px) {
+    .logo_png {
+      width: 9em; } }
 
 .logo_png:hover{
   opacity:.5
