@@ -1378,6 +1378,10 @@ body#contact_page #contact_nav.header_menu_link {
       .present_btn_wrap.pr_btst_mod {
         display: none; } }
 
+.present_btn_wrap_join {
+  padding-right: 2rem;
+}
+
 .video_bg_wrap {
   position: absolute;
   top: 0;
