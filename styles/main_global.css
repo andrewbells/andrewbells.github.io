@@ -2159,6 +2159,15 @@ video {
       text-transform: uppercase;
       width: 31rem; } }
 
+.center_button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+}
+
 .platform_btn {
   width: 14rem; }
   .platform_btn.white_mod {
