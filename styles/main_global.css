@@ -2160,12 +2160,8 @@ video {
       width: 31rem; } }
 
 .center_button {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
+    margin: 0 auto;
     display: block;
-    -ms-transform: translate(-50%, 0);
-        transform: translate(-50%, 0);
 }
 
 .platform_btn {
