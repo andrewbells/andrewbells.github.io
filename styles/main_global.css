@@ -1385,6 +1385,10 @@ body#contact_page #contact_nav.header_menu_link,
   padding: 5.6rem 0 0 0;
 }
 
+.mailchimp_input {
+  cursor: pointer;
+}
+
 .present_btn_wrap_join {
   padding-right: 2rem; }
   @media screen and (max-width: 768px) {
