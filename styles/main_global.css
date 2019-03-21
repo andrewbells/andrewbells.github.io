@@ -1492,7 +1492,7 @@ video {
     .top_values_list {
       -ms-flex-align: center;
           align-items: center;
-      padding: 1rem 0 0 0;
+      padding: 1rem 0 8rem 0;
       border-bottom: none; } }
   @media screen and (max-width: 480px) {
     .top_values_list {
@@ -1501,6 +1501,7 @@ video {
       -ms-flex-align: center;
           align-items: center;
       padding: 0;
+      padding-bottom: 8rem;
       border-bottom: none; } }
 
 .top_values_item {
