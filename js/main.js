@@ -70,8 +70,8 @@ $(document).ready(function ($) {
 				$body.removeClass('menu_open');
 				$menuTriggerMain.removeClass('active_mod');
 			} else {
-				$body.addClass('menu_open');
-				$menuTriggerMain.addClass('active_mod');
+				//$body.addClass('menu_open');
+				//$menuTriggerMain.addClass('active_mod');
 			}
 	});
 
@@ -85,8 +85,8 @@ $(document).ready(function ($) {
 				$body.removeClass('menu_open');
 				$menuTriggerMain.removeClass('active_mod');
 			} else {
-				$body.addClass('menu_open');
-				$menuTriggerMain.addClass('active_mod');
+				//$body.addClass('menu_open');
+				//$menuTriggerMain.addClass('active_mod');
 			}
 	});
 
@@ -100,8 +100,8 @@ $(document).ready(function ($) {
 				$body.removeClass('menu_open');
 				$menuTriggerMain.removeClass('active_mod');
 			} else {
-				$body.addClass('menu_open');
-				$menuTriggerMain.addClass('active_mod');
+				//$body.addClass('menu_open');
+				//$menuTriggerMain.addClass('active_mod');
 			}
 	});
 
