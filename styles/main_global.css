@@ -1465,6 +1465,10 @@ video {
       font-size: 2.4rem;
       line-height: 1.5; } }
 
+.section_line {
+  position: relative;
+}
+
 .top_values_header {
   padding: 3.6rem 0 0 0;
   font-weight: 500;
