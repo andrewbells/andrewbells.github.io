@@ -1435,7 +1435,7 @@ video {
   line-height: 2.1rem;
   font-weight: 700;
   text-align: center; }
-  .top_impression:after {
+  .section_line:after, .top_impression:after {
     position: absolute;
     bottom: 0;
     left: 50%;
