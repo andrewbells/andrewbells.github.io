@@ -2156,7 +2156,7 @@ video {
       padding-top: 7.2rem; } }
 
 input[type=submit].mailchimp_input {
-  font-weight: 700;
+  font-weight: 500;
   color: #f8f8f2;
   transition: .3s ease;
   background: #6FC13E;
