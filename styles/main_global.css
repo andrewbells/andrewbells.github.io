@@ -1388,7 +1388,15 @@ body#contact_page #contact_nav.header_menu_link,
   padding: 5.6rem 0 0 0;
 }
 
-.mailchimp_input {
+input[type=submit].mailchimp_input {
+  font-weight: 700;
+  color: #f8f8f2;
+  transition: .3s ease;
+  background: #6FC13E;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+
   cursor: pointer;
 }
 
