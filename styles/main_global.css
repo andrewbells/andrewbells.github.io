@@ -1224,7 +1224,10 @@ body#contact_page #contact_nav.header_menu_link,
     .section_header {
       font-size: 4.8rem; } }
   .section_header.offset_mod {
-    padding: 8.4rem 0 0; }
+    padding: 7.4rem 0 0; }
+    @media screen and (max-width: 768px) {
+    .section_header.offset_mod  {
+      padding: 8rem 0 0; } }
   .section_header.offset_b_mod {
     padding: 0 0 3.6rem; }
   .section_header.contact_mod {
