@@ -2163,7 +2163,7 @@ input[type=submit].mailchimp_input {
   display: inline-block;
   white-space: nowrap;
   text-align: center;
-  font: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   cursor: pointer;
   border: none;
   /*
