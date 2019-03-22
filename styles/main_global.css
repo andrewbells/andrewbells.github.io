@@ -1388,6 +1388,10 @@ body#contact_page #contact_nav.header_menu_link,
   padding: 5.6rem 0 0 0;
 }
 
+#mc_embed_signup .present_btn_wrap {
+  padding: 3.6rem 0 0 0;
+}
+
 .present_btn_wrap_join {
   padding-right: 2rem; }
   @media screen and (max-width: 768px) {
