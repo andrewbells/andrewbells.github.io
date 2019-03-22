@@ -1388,18 +1388,6 @@ body#contact_page #contact_nav.header_menu_link,
   padding: 5.6rem 0 0 0;
 }
 
-input[type=submit].mailchimp_input {
-  font-weight: 700;
-  color: #f8f8f2;
-  transition: .3s ease;
-  background: #6FC13E;
-  display: inline-block;
-  white-space: nowrap;
-  text-align: center;
-
-  cursor: pointer;
-}
-
 .present_btn_wrap_join {
   padding-right: 2rem; }
   @media screen and (max-width: 768px) {
@@ -2166,6 +2154,18 @@ video {
     .present_btn_wrap.cont_btn_mod {
       display: block;
       padding-top: 7.2rem; } }
+
+input[type=submit].mailchimp_input {
+  font-weight: 700;
+  color: #f8f8f2;
+  transition: .3s ease;
+  background: #6FC13E;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  font: "Montserrat", sans-serif;
+  cursor: pointer;
+}
 
 .present_btn {
   width: 18rem; }
