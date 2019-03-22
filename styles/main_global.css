@@ -2169,6 +2169,7 @@ input[type=submit].mailchimp_input {
 
   -webkit-appearance: none;
   -moz-appearance: none;
+  opactiy: 1;
   /*
   border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
   border-style: solid;
