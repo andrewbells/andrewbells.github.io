@@ -151,9 +151,6 @@ $(document).ready(function ($) {
 			message: {
 				required: true
 			}
-			city: {
-				required: true
-			}
 
 		},
 		messages: {
@@ -167,9 +164,7 @@ $(document).ready(function ($) {
 			message: {
 				required: 'This field is required'
 			}
-			city: {
-				required: 'This field is required'
-			}
+
 		}
 	});
 });
